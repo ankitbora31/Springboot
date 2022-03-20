@@ -1,0 +1,113 @@
+body{
+    width:100%;
+    background-color: #007c75;
+    height: 100%;
+    margin: 0px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.main{
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 40px 0px 0px;
+    margin: 0px;
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn1 button{
+    border: 1px;
+    border-radius: 12px;
+    color: white;
+    margin:10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-right: none;
+}
+.btn1:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn1 button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.footer button{
+    border-radius: 12px;
+    position:fixed;
+    left: 85px;
+    background-color: #f1f1f1;
+    text-align: center;
+    bottom:10px;    
+}
+
+/*
+profile 1
+*/
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+input[type=text], input[type=number], input[type=file],
+ input[type=tel],input[type="url"] {
+    width: 90%;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    margin: 2px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=number]:focus,
+input[type=file]:focus,
+input[type=tel]:focus,input[type="url"]:focus  {
+    background-color: #ddd;
+    outline: none;
+}
+
+.foot {
+    position: fixed;
+    bottom: 10px;
+    left:0.5%;
+    background-color: #007c75;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.foot:hover {
+    opacity: 1;
+}
+
+.one{
+    background-color: #007c75;
+    border-radius: 50%;
+    border: none;
+    
+}
+h1{
+    margin:0;
+    display: inline-block;
+    pos;
+}
